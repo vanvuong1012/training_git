@@ -155,12 +155,6 @@ public class CustomerServlet extends HttpServlet {
       
         int id = Integer.parseInt(request.getParameter("id"));
         
-        CustomerDTO customerDTO = customerDao.getCustomerDTO(id);
-        String name = request.getParameter("name");
-        String email = request.getParameter("email");
-        String country = request.getParameter("country");
-        request.setAttribute("customer", customerDTO);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/customer-view.jsp");
-        dispatcher.forward(request, response);
+        
     }
 }
