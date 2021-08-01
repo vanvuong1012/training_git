@@ -18,11 +18,7 @@ import java.io.InputStream;
 import java.sql.Blob;
 import java.sql.SQLException;
 import java.util.List;
-import javax.servlet.RequestDispatcher;
-import javax.servlet.annotation.MultipartConfig;
-import javax.servlet.http.Part;
-import org.apache.commons.io.IOUtils;
-import org.hibernate.Hibernate;
+
 /**
  *
  * @author TriPham
